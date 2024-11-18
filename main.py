@@ -17,8 +17,10 @@ def main():
     point_1 = Points(2, 3)
     point_2 = Points(3,2)
 
-    point_3 = point_1 + point_2
+    print(point_1.__add__(point_2))
+    
+    #point_3 = point_1 + point_2
 
-    print(point_3)
+   # print(point_3)
 
 main()
